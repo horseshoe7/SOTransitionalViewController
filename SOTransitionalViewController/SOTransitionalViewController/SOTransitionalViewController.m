@@ -56,14 +56,12 @@ static int testTransition = 0;
 - (void)crossfadeController:(UIViewController*)newController 
             completionBlock:(void(^)(SOTransitionalViewController *transitionalController, UIViewController *toController))completionBlock;
 
-
+- (void)setCurrentViewController:(UIViewController *)aViewController;
 
 @end
 
 
 @implementation SOTransitionalViewController
-
-@synthesize currentViewController = _currentViewController;
 @synthesize fadeTime = _fadeTime, transitionTime = _transitionTime;
 
 +(SOViewTransition)testNextTransition
@@ -125,10 +123,8 @@ static int testTransition = 0;
     if (_currentViewController) {
         
         _currentViewController = nil;
-    }
-    
+    }    
     _currentViewController = aViewController;
-    
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation

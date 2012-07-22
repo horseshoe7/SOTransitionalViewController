@@ -38,7 +38,7 @@
     [transController.view addSubview: _infoLabel];    
     
     
-    // don't have to always call navigateToNode: , you can directly call the method from the superclass which navigateToNode ultimately manages.
+    // when initializing, you'll generally want to change to a new UIViewController with no transition.  This just 'sets' the currentController property.
     [transController changeToViewController: [[ControllerA alloc] init]
                              withTransition:SOViewTransitionNone 
                             completionBlock:^(SOTransitionalViewController *transitionalController, 

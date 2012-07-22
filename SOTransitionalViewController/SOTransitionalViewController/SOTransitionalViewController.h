@@ -48,7 +48,7 @@ typedef enum {
     UIViewController *_currentViewController;
     NSTimeInterval _fadeTime, _transitionTime;
 }
-@property (nonatomic, strong) UIViewController *currentViewController;
+@property (nonatomic, readonly) UIViewController *currentViewController;
 @property (readonly) UIView *transitionView;  // the view which holds the controllers being transitioned.  usually same size as window bounds, but you can customize.
 
 @property NSTimeInterval fadeTime;  // time in seconds for fade transitions
