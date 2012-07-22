@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC35853615BC11DC00FE92D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC35853515BC11DC00FE92D3 /* UIKit.framework */; };
+		DC35853815BC11DC00FE92D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC35853715BC11DC00FE92D3 /* Foundation.framework */; };
+		DC35853A15BC11DC00FE92D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC35853915BC11DC00FE92D3 /* CoreGraphics.framework */; };
+		DC35854015BC11DC00FE92D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC35853E15BC11DC00FE92D3 /* InfoPlist.strings */; };
+		DC35854215BC11DC00FE92D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC35854115BC11DC00FE92D3 /* main.m */; };
+		DC35854615BC11DC00FE92D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC35854515BC11DC00FE92D3 /* AppDelegate.m */; };
+		DC35855315BC124000FE92D3 /* SOTransitionalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC35855215BC124000FE92D3 /* SOTransitionalViewController.m */; };
+		DC35856815BC164300FE92D3 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC35855F15BC164300FE92D3 /* BaseController.m */; };
+		DC35856915BC164300FE92D3 /* ControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = DC35856115BC164300FE92D3 /* ControllerA.m */; };
+		DC35856A15BC164300FE92D3 /* ControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = DC35856315BC164300FE92D3 /* ControllerB.m */; };
+		DC35857415BC19A600FE92D3 /* fuzzy_tree.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DC35857215BC19A600FE92D3 /* fuzzy_tree.jpeg */; };
+		DC35857515BC19A600FE92D3 /* tree_no_panties.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DC35857315BC19A600FE92D3 /* tree_no_panties.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC35853115BC11DC00FE92D3 /* SOTransitionalViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOTransitionalViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC35853515BC11DC00FE92D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC35853715BC11DC00FE92D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC35853915BC11DC00FE92D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC35853D15BC11DC00FE92D3 /* SOTransitionalViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SOTransitionalViewController-Info.plist"; sourceTree = "<group>"; };
+		DC35853F15BC11DC00FE92D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC35854115BC11DC00FE92D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC35854315BC11DC00FE92D3 /* SOTransitionalViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SOTransitionalViewController-Prefix.pch"; sourceTree = "<group>"; };
+		DC35854415BC11DC00FE92D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC35854515BC11DC00FE92D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC35855115BC124000FE92D3 /* SOTransitionalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOTransitionalViewController.h; sourceTree = "<group>"; };
+		DC35855215BC124000FE92D3 /* SOTransitionalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOTransitionalViewController.m; sourceTree = "<group>"; };
+		DC35855E15BC164300FE92D3 /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
+		DC35855F15BC164300FE92D3 /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
+		DC35856015BC164300FE92D3 /* ControllerA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControllerA.h; sourceTree = "<group>"; };
+		DC35856115BC164300FE92D3 /* ControllerA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControllerA.m; sourceTree = "<group>"; };
+		DC35856215BC164300FE92D3 /* ControllerB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControllerB.h; sourceTree = "<group>"; };
+		DC35856315BC164300FE92D3 /* ControllerB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControllerB.m; sourceTree = "<group>"; };
+		DC35857215BC19A600FE92D3 /* fuzzy_tree.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fuzzy_tree.jpeg; sourceTree = "<group>"; };
+		DC35857315BC19A600FE92D3 /* tree_no_panties.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tree_no_panties.jpeg; sourceTree = "<group>"; };
+		DC35857615BC1A2900FE92D3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC35852E15BC11DC00FE92D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC35853615BC11DC00FE92D3 /* UIKit.framework in Frameworks */,
+				DC35853815BC11DC00FE92D3 /* Foundation.framework in Frameworks */,
+				DC35853A15BC11DC00FE92D3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC35852615BC11DC00FE92D3 = {
+			isa = PBXGroup;
+			children = (
+				DC35857615BC1A2900FE92D3 /* README.md */,
+				DC35853B15BC11DC00FE92D3 /* SOTransitionalViewController */,
+				DC35853415BC11DC00FE92D3 /* Frameworks */,
+				DC35853215BC11DC00FE92D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC35853215BC11DC00FE92D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC35853115BC11DC00FE92D3 /* SOTransitionalViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC35853415BC11DC00FE92D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC35853515BC11DC00FE92D3 /* UIKit.framework */,
+				DC35853715BC11DC00FE92D3 /* Foundation.framework */,
+				DC35853915BC11DC00FE92D3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC35853B15BC11DC00FE92D3 /* SOTransitionalViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DC35854415BC11DC00FE92D3 /* AppDelegate.h */,
+				DC35854515BC11DC00FE92D3 /* AppDelegate.m */,
+				DC35855015BC124000FE92D3 /* SOTransitionalViewController */,
+				DC35853C15BC11DC00FE92D3 /* Supporting Files */,
+			);
+			path = SOTransitionalViewController;
+			sourceTree = "<group>";
+		};
+		DC35853C15BC11DC00FE92D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC35857115BC19A600FE92D3 /* images */,
+				DC35855D15BC164300FE92D3 /* TestControllers */,
+				DC35853D15BC11DC00FE92D3 /* SOTransitionalViewController-Info.plist */,
+				DC35853E15BC11DC00FE92D3 /* InfoPlist.strings */,
+				DC35854115BC11DC00FE92D3 /* main.m */,
+				DC35854315BC11DC00FE92D3 /* SOTransitionalViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC35855015BC124000FE92D3 /* SOTransitionalViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DC35855115BC124000FE92D3 /* SOTransitionalViewController.h */,
+				DC35855215BC124000FE92D3 /* SOTransitionalViewController.m */,
+			);
+			path = SOTransitionalViewController;
+			sourceTree = "<group>";
+		};
+		DC35855D15BC164300FE92D3 /* TestControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DC35855E15BC164300FE92D3 /* BaseController.h */,
+				DC35855F15BC164300FE92D3 /* BaseController.m */,
+				DC35856015BC164300FE92D3 /* ControllerA.h */,
+				DC35856115BC164300FE92D3 /* ControllerA.m */,
+				DC35856215BC164300FE92D3 /* ControllerB.h */,
+				DC35856315BC164300FE92D3 /* ControllerB.m */,
+			);
+			path = TestControllers;
+			sourceTree = "<group>";
+		};
+		DC35857115BC19A600FE92D3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DC35857215BC19A600FE92D3 /* fuzzy_tree.jpeg */,
+				DC35857315BC19A600FE92D3 /* tree_no_panties.jpeg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC35853015BC11DC00FE92D3 /* SOTransitionalViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC35854915BC11DC00FE92D3 /* Build configuration list for PBXNativeTarget "SOTransitionalViewController" */;
+			buildPhases = (
+				DC35852D15BC11DC00FE92D3 /* Sources */,
+				DC35852E15BC11DC00FE92D3 /* Frameworks */,
+				DC35852F15BC11DC00FE92D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOTransitionalViewController;
+			productName = SOTransitionalViewController;
+			productReference = DC35853115BC11DC00FE92D3 /* SOTransitionalViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC35852815BC11DC00FE92D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Stephen O'Connor";
+			};
+			buildConfigurationList = DC35852B15BC11DC00FE92D3 /* Build configuration list for PBXProject "SOTransitionalViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC35852615BC11DC00FE92D3;
+			productRefGroup = DC35853215BC11DC00FE92D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC35853015BC11DC00FE92D3 /* SOTransitionalViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC35852F15BC11DC00FE92D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC35854015BC11DC00FE92D3 /* InfoPlist.strings in Resources */,
+				DC35857415BC19A600FE92D3 /* fuzzy_tree.jpeg in Resources */,
+				DC35857515BC19A600FE92D3 /* tree_no_panties.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC35852D15BC11DC00FE92D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC35854215BC11DC00FE92D3 /* main.m in Sources */,
+				DC35854615BC11DC00FE92D3 /* AppDelegate.m in Sources */,
+				DC35855315BC124000FE92D3 /* SOTransitionalViewController.m in Sources */,
+				DC35856815BC164300FE92D3 /* BaseController.m in Sources */,
+				DC35856915BC164300FE92D3 /* ControllerA.m in Sources */,
+				DC35856A15BC164300FE92D3 /* ControllerB.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC35853E15BC11DC00FE92D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC35853F15BC11DC00FE92D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC35854715BC11DC00FE92D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC35854815BC11DC00FE92D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC35854A15BC11DC00FE92D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SOTransitionalViewController/SOTransitionalViewController-Prefix.pch";
+				INFOPLIST_FILE = "SOTransitionalViewController/SOTransitionalViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC35854B15BC11DC00FE92D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SOTransitionalViewController/SOTransitionalViewController-Prefix.pch";
+				INFOPLIST_FILE = "SOTransitionalViewController/SOTransitionalViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC35852B15BC11DC00FE92D3 /* Build configuration list for PBXProject "SOTransitionalViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC35854715BC11DC00FE92D3 /* Debug */,
+				DC35854815BC11DC00FE92D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC35854915BC11DC00FE92D3 /* Build configuration list for PBXNativeTarget "SOTransitionalViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC35854A15BC11DC00FE92D3 /* Debug */,
+				DC35854B15BC11DC00FE92D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC35852815BC11DC00FE92D3 /* Project object */;
+}
