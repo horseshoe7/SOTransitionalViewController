@@ -7,7 +7,7 @@ A container view controller that can transition from one view controller to anot
 ```objc
 @interface SOTransitionalViewController : UIViewController
 
-@property (nonatomic, strong) UIViewController *currentViewController;
+@property (nonatomic, readonly) UIViewController *currentViewController;
 
 -(void)changeToViewController:(UIViewController*)controller 
                withTransition:(SOViewTransition)aTransition;
@@ -22,6 +22,7 @@ A container view controller that can transition from one view controller to anot
                       options:(UIViewAnimationOptions)options
               completionBlock:(void(^)(SOTransitionalViewController *transitionalController, UIViewController *toController))completionBlock;
 
+@end
 ```
 
 ## Transition Types
