@@ -112,8 +112,19 @@ static int testTransition = 0;
     tView.backgroundColor = [UIColor clearColor];
     tView.tag = -100;
     [self.view addSubview:tView];
-    _currentViewController = nil;
+    
 }
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    if (self.currentViewController && [self.transitionView.subviews containsObject: self.currentViewController.view] == NO) {
+        self.currentViewController.view.frame = self.transitionView.bounds;
+        [self.transitionView addSubview: self.currentViewController.view];
+    }
+}
+
 
 - (UIView*)transitionView { return [self.view viewWithTag: -100]; }
 
